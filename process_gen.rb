@@ -12,7 +12,7 @@ until col_bool do
 end
 process_array = []
 num_of_processes.times do |p|
-  process_array << [p, rand(50), rand(num_of_processes), rand(99), 0, rand(10)]
+  process_array << [p, rand(50), rand(num_of_processes), rand(100), 0, rand(10)]
   process_array[p][4] = process_array[p][2]+process_array[p][1]+rand(30)
 end
 process_array.shuffle!
