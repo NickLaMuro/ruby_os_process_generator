@@ -1,0 +1,24 @@
+== Process Generator
+
+=== About the Generator
+
+This program creates a set of process (fake ones) to be used as test data for a OS project.  Feel free to use it as you please, it is simply a way for me to generate test data fast and randomly.
+
+=== Usage
+
+Run the program by using:
+
+  ruby process_gen.rb
+
+Then follow the commands.  Here is a sample out put:
+  
+  bash$ ruby process_gen.rb
+  Enter the number of processes you want generated: 
+  3
+  Enter the name of the file you want the generated process stored in:
+  sample
+  bash$ cat sample
+  0       22      0       44      25      3
+  1       23      2       90      25      8
+  2       40      0       18      46      1
+  bash$
