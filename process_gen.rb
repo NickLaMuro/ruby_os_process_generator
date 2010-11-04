@@ -9,6 +9,7 @@ num_of_processes.times do |p|
 end
 process_array.shuffle!
 file = File.new(filename, "w")
+file.puts("Pid\tBst\tArr\tPri\tDline\tI/O\t")
 process_array.each do |p|
   file.puts("#{p[0]}\t#{p[1]}\t#{p[2]}\t#{p[3]}\t#{p[4]}\t#{p[5]}\t")
 end

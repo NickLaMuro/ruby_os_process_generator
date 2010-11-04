@@ -10,7 +10,7 @@ Run the program by using:
 
   ruby process_gen.rb
 
-Then follow the commands.  Here is a sample out put:
+Then follow the commands.  Here is a sample output:
   
   bash$ ruby process_gen.rb
   Enter the number of processes you want generated: 
