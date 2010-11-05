@@ -6,7 +6,7 @@ This program creates a set of processes (fake ones) to be used as test data for 
 
 I originally did this in ruby because I knew the languange and it would be a lot easier then doing it in java or a C variant.  It worked quite well and I got it to work with little trouble.
 
-I then wrote it in perl because myself and two other classmates/co-workers were going to be doing a programming competition, and at the last minute, decided to do it in perl (Java and gnu C++ being our only other options).  So I taught myself some perl and it retained similar functionality, and doesn't require any extra modules (I beileve that is what perl call them).'
+I then wrote it in perl because myself and two other classmates/co-workers were going to be doing a programming competition, and at the last minute, decided to do it in perl (Java and gnu C++ being our only other options).  So I taught myself some perl and it retained similar functionality, and doesn't require any extra modules (I beileve that is what perl calls them).
 
 === Usage
 
@@ -21,6 +21,8 @@ Then follow the commands.  Here is a sample output:
   3
   Enter the name of the file you want the generated process stored in:
   sample
+  Do you want column names? (y/n)
+  n
   bash$ cat sample
   0       22      0       44      25      3
   1       23      2       90      25      8
@@ -29,6 +31,6 @@ Then follow the commands.  Here is a sample output:
 
 To run in perl:
 
-  perl process_en.pl
+  perl process_gen.pl
   
 Same functionality as the ruby application (I hope...).
