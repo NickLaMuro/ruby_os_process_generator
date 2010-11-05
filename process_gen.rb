@@ -1,6 +1,6 @@
-puts "Enter the number of processes you want generated?"
+puts "Enter the number of processes you want generated:"
 num_of_processes = gets.chomp.to_i
-puts "Enter the name of the file you want the generated process stored in?"
+puts "Enter the name of the file you want the generated process stored in:"
 filename = gets.chomp
 col_bool = false
 until col_bool do
