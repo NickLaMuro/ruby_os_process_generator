@@ -1,6 +1,6 @@
-== Process Generator
+= Process Generator
 
-=== About the Generator
+== About the Generator
 
 This program creates a set of processes (fake ones) to be used as test data for a OS project.  Feel free to use it as you please, it is simply a way for me to generate test data fast and randomly.
 
@@ -8,7 +8,7 @@ I originally did this in ruby because I knew the languange and it would be a lot
 
 I then wrote it in perl because myself and two other classmates/co-workers were going to be doing a programming competition, and at the last minute, decided to do it in perl (Java and gnu C++ being our only other options).  So I taught myself some perl and it retained similar functionality, and doesn't require any extra modules (I beileve that is what perl calls them).
 
-=== Usage
+== Usage
 
 Run the program by using:
 
@@ -33,4 +33,4 @@ To run in perl:
 
   perl process_gen.pl
   
-Same functionality as the ruby application (I hope...).
+Same functionality as the ruby application (I hope...)
