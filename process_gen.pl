@@ -6,7 +6,7 @@ chomp(my $num_of_processes = <>);
 print "Enter the name of the file you want the generated process stored in:\n";
 chomp(my $filename = <>);
 my $col_bool = 0;
-unless($col_bool){
+until($col_bool){
   print "Do you want column names? (y/n)";
   chomp($col_bool = <>);
   unless($col_bool eq 'y' || $col_bool eq 'n'){
