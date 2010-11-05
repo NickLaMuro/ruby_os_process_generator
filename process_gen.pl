@@ -15,11 +15,11 @@ unless($col_bool){
 }
 
 my @process_array = ();
-foreach(0..$num_of_processes) {
+foreach(0..$num_of_processes-1) {
   push(@process_array, [$_, int(rand(50)), int(rand($num_of_processes)), int(rand(100)), 0, int(rand(10))]);
   $process_array[$_][4] = $process_array[$_][2]+$process_array[$_][1]+int(rand(30));
 }  
-fy_shuffle(@process_array);
+fy_shuffle( \@process_array);
 open(my $file, ">", $filename) or die "Can't open $filename: $!";
 if($col_bool eq 'y'){
   print $file "Pid\tBst\tArr\tPri\tDline\tI/O\n";

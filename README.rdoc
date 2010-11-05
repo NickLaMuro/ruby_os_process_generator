@@ -2,7 +2,11 @@
 
 === About the Generator
 
-This program creates a set of process (fake ones) to be used as test data for a OS project.  Feel free to use it as you please, it is simply a way for me to generate test data fast and randomly.
+This program creates a set of processes (fake ones) to be used as test data for a OS project.  Feel free to use it as you please, it is simply a way for me to generate test data fast and randomly.
+
+I originally did this in ruby because I knew the languange and it would be a lot easier then doing it in java or a C variant.  It worked quite well and I got it to work with little trouble.
+
+I then wrote it in perl because myself and two other classmates/co-workers were going to be doing a programming competition, and at the last minute, decided to do it in perl (Java and gnu C++ being our only other options).  So I taught myself some perl and it retained similar functionality, and doesn't require any extra modules (I beileve that is what perl call them).'
 
 === Usage
 
@@ -22,3 +26,9 @@ Then follow the commands.  Here is a sample output:
   1       23      2       90      25      8
   2       40      0       18      46      1
   bash$
+
+To run in perl:
+
+  perl process_en.pl
+  
+Same functionality as the ruby application (I hope...).
